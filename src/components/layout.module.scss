@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+    margin: 0 auto;
+    max-width: 80vw;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 8vh);
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.footer {
+    max-height: 8vh;
+}
